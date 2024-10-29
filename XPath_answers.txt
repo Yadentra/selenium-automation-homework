@@ -1,0 +1,16 @@
+1. XPath for main <h1> element:
+   //h1[@id='mainTitle']
+
+2. XPath for "About Us" navigational link:
+   //a[text()='About Us']
+
+3. XPath for "Graphic Design" dropdown link:
+   //a[text()='Graphic Design']
+
+4. XPath for team member "Jane Smith":
+   //h4[text()='Jane Smith']
+
+5. XPath for description of "SEO Services":
+   //h3[text()='SEO Services']/following-sibling::p
+
+(Continue with all other XPath answers in the same format)
