@@ -1,16 +1,44 @@
-1. XPath for main <h1> element:
+1. XPath to locate the main <h1> element: 
    //h1[@id='mainTitle']
 
-2. XPath for "About Us" navigational link:
+2. XPath to select the About Us navigational link:
    //a[text()='About Us']
 
-3. XPath for "Graphic Design" dropdown link:
+3. XPath to select the Graphic Design dropdown link:
    //a[text()='Graphic Design']
 
-4. XPath for team member "Jane Smith":
+4. XPath to select the team member’s name Jane Smith:
    //h4[text()='Jane Smith']
 
-5. XPath for description of "SEO Services":
+5. XPath to select the description (which is inside the paragraph) of SEO Services:
    //h3[text()='SEO Services']/following-sibling::p
 
-(Continue with all other XPath answers in the same format)
+6. XPath to select all service items in the "Our Services" section:
+   //h2[text()='Our Services']/following-sibling::ul/li
+
+7. XPath to select the email input field in the contact form:
+   //input[@type='email']
+
+8. XPath to select the entire contact form:
+   //form[@id='contactForm']
+
+9. XPath to select the footer paragraph element:
+   //footer//p
+
+10. XPath to select the first team member's <h4> name:
+    //h4[position()=1]
+
+11. XPath to select the description of the second service item:
+    //h2[text()='Our Services']/following-sibling::ul/li[2]/p
+
+12. XPath to select the "Contact Us" section header (<h2> element):
+    //h2[text()='Contact Us']
+
+13. XPath to select all links within the dropdown under the "Services" navigation item:
+    //nav//ul[contains(@class, 'dropdown')]//a
+
+14. XPath to select the first <li> under the "Our Team" section:
+    //h2[text()='Our Team']/following-sibling::ul/li[1]
+
+15. XPath to locate the "Send Message" button in the contact form:
+    //button[@type='submit' and text()='Send Message']
