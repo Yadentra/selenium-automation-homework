@@ -68,7 +68,7 @@ Description: Contains the XPath expressions used in the automation tasks.
 
 
 
-Usage
+## Usage
 
 To run the automation scripts, use the following command in your terminal:
 
@@ -80,11 +80,11 @@ python task2_css_locator.py
 
 Make sure to have the browser open or headless mode set up according to your script needs.
 
-Contributing
+## Contributing
 
 Contributions are welcome! If you have suggestions for improvements or features, feel free to fork the repository and submit a pull request.
 
-License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
