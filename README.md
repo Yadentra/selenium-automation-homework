@@ -39,7 +39,7 @@ source .venv/bin/activate  # On macOS/Linux
 pip install -r requirements.txt
 
 
-Tasks
+## Tasks
 
 This project contains the following tasks:
 
